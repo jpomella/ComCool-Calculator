@@ -1,0 +1,465 @@
+{
+  "about": "This is a calculator that will take the sizes of the rooms entered and calculate the M3 of each room. From here, we can recommend a duct size and a unit to match the home based on these calculations",
+  "numberOfRooms": 13,
+  "totalHouseM3": 0,
+  "ductInfo": [
+    {
+      "ductSize": 0,
+      "dropperCapacity": 0,
+      "roomDuctSizeLoc1": 0,
+      "roomDuctSizeLoc2": 0,
+      "roomDuctSizeLoc3": 0,
+      "roomDuctSizeLoc4": 0,
+      "roomDuctSizeLoc5": 0,
+      "ventSize": ""
+    },
+    {
+      "ductSize": 300,
+      "dropperCapacity": 0,
+      "roomDuctSizeLoc1": 1,
+      "roomDuctSizeLoc2": 1,
+      "roomDuctSizeLoc3": 1,
+      "roomDuctSizeLoc4": 1,
+      "roomDuctSizeLoc5": 1,
+      "ventSize": "nil"
+    },
+    {
+      "ductSize": 300,
+      "dropperCapacity": 0,
+      "roomDuctSizeLoc1": 34,
+      "roomDuctSizeLoc2": 30,
+      "roomDuctSizeLoc3": 27,
+      "roomDuctSizeLoc4": 24,
+      "roomDuctSizeLoc5": 18,
+      "ventSize": "300 x 300 (300mm)"
+    },
+    {
+      "ductSize": 350,
+      "dropperCapacity": 10,
+      "roomDuctSizeLoc1": 48,
+      "roomDuctSizeLoc2": 43,
+      "roomDuctSizeLoc3": 37,
+      "roomDuctSizeLoc4": 33,
+      "roomDuctSizeLoc5": 24,
+      "ventSize": "400 x 400 (350mm)"
+    },
+    {
+      "ductSize": 400,
+      "dropperCapacity": 13,
+      "roomDuctSizeLoc1": 62,
+      "roomDuctSizeLoc2": 56,
+      "roomDuctSizeLoc3": 47,
+      "roomDuctSizeLoc4": 42,
+      "roomDuctSizeLoc5": 32,
+      "ventSize": "400 x 400 (400mm)"
+    },
+    {
+      "ductSize": 450,
+      "dropperCapacity": 16,
+      "roomDuctSizeLoc1": 75,
+      "roomDuctSizeLoc2": 68,
+      "roomDuctSizeLoc3": 58,
+      "roomDuctSizeLoc4": 52,
+      "roomDuctSizeLoc5": 38,
+      "ventSize": "600 x 400 (450mm)"
+    },
+    {
+      "ductSize": 500,
+      "dropperCapacity": 20,
+      "roomDuctSizeLoc1": 92,
+      "roomDuctSizeLoc2": 84,
+      "roomDuctSizeLoc3": 72,
+      "roomDuctSizeLoc4": 64,
+      "roomDuctSizeLoc5": 46,
+      "ventSize": "600 x 400 (500mm)"
+    },
+    {
+      "ductSize": 550,
+      "dropperCapacity": 24,
+      "roomDuctSizeLoc1": "MAX",
+      "roomDuctSizeLoc2": "MAX",
+      "roomDuctSizeLoc3": "MAX",
+      "roomDuctSizeLoc4": "MAX",
+      "roomDuctSizeLoc5": "MAX",
+      "ventSize": "nil"
+    }
+  ],
+  "modelFinder": [
+    {
+      "model": "D095",
+      "maxOutlets": 5,
+      "location1Capacity": 266,
+      "location2Capacity": 288,
+      "location3Capacity": 200,
+      "location4Capacity": 160,
+      "location5Capacity": 123,
+      "dropperCapacity": 45
+    },
+    {
+      "model": "D125",
+      "maxOutlets": 7,
+      "location1Capacity": 350,
+      "location2Capacity": 300,
+      "location3Capacity": 263,
+      "location4Capacity": 210,
+      "location5Capacity": 161,
+      "dropperCapacity": 48
+    },
+    {
+      "model": "D160",
+      "maxOutlets": 8,
+      "location1Capacity": 448,
+      "location2Capacity": 384,
+      "location3Capacity": 336,
+      "location4Capacity": 269,
+      "location5Capacity": 207,
+      "dropperCapacity": 56
+    },
+    {
+      "model": "D195",
+      "maxOutlets": 9,
+      "location1Capacity": 546,
+      "location2Capacity": 468,
+      "location3Capacity": 410,
+      "location4Capacity": 328,
+      "location5Capacity": 252,
+      "dropperCapacity": 64
+    },
+    {
+      "model": "D230",
+      "maxOutlets": 10,
+      "location1Capacity": 644,
+      "location2Capacity": 552,
+      "location3Capacity": 483,
+      "location4Capacity": 386,
+      "location5Capacity": 297,
+      "dropperCapacity": 72
+    },
+    {
+      "model": "D255",
+      "maxOutlets": 11,
+      "location1Capacity": 714,
+      "location2Capacity": 612,
+      "location3Capacity": 535,
+      "location4Capacity": 428,
+      "location5Capacity": 330,
+      "dropperCapacity": 72
+    },
+    {
+      "model": "D500",
+      "maxOutlets": 18,
+      "location1Capacity": 1400,
+      "location2Capacity": 1200,
+      "location3Capacity": 1050,
+      "location4Capacity": 840,
+      "location5Capacity": 645,
+      "dropperCapacity": 128
+    },
+    {
+      "model": "C125",
+      "maxOutlets": 7,
+      "location1Capacity": 350,
+      "location2Capacity": 300,
+      "location3Capacity": 263,
+      "location4Capacity": 210,
+      "location5Capacity": 161,
+      "dropperCapacity": 48
+    },
+    {
+      "model": "C160",
+      "maxOutlets": 8,
+      "location1Capacity": 448,
+      "location2Capacity": 384,
+      "location3Capacity": 336,
+      "location4Capacity": 269,
+      "location5Capacity": 207,
+      "dropperCapacity": 56
+    },
+    {
+      "model": "C205",
+      "maxOutlets": 10,
+      "location1Capacity": 574,
+      "location2Capacity": 492,
+      "location3Capacity": 430,
+      "location4Capacity": 344,
+      "location5Capacity": 265,
+      "dropperCapacity": 66
+    },
+    {
+      "model": "C240",
+      "maxOutlets": 11,
+      "location1Capacity": 672,
+      "location2Capacity": 576,
+      "location3Capacity": 504,
+      "location4Capacity": 406,
+      "location5Capacity": 310,
+      "dropperCapacity": 72
+    }
+  ],
+  "locations": [
+    {
+      "name": "Canberra",
+      "airChanges": 30,
+      "factor": 1
+    },
+    {
+      "name": "Hobart",
+      "airChanges": 30,
+      "factor": 1
+    },
+    {
+      "name": "Albany",
+      "airChanges": 30,
+      "factor": 1
+    },
+    {
+      "name": "Port Augusta",
+      "airChanges": 30,
+      "factor": 1
+    },
+    {
+      "name": "Mt Gambier",
+      "airChanges": 30,
+      "factor": 1
+    },
+    {
+      "name": "Perth",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Broken Hill",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Bendigo",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Adelaide",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Melbourne",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Geraldton",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Dubbo",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Kalgoorlie",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Moree",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Bourke",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Mandurah",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Parkes",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Port Pirie",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Echuca",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Forbes",
+      "airChanges": 35,
+      "factor": 2
+    },
+    {
+      "name": "Toowoomba",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Alice Springs",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Mt Isa",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Woomera",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Blackall",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Longreach",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Charleville",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Dalby",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Roma",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Cunnamulla",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Charters Towers",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Emerald",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Goondiwindi",
+      "airChanges": 40,
+      "factor": 3
+    },
+    {
+      "name": "Brisbane",
+      "airChanges": 50,
+      "factor": 4
+    },
+    {
+      "name": "Sydney",
+      "airChanges": 50,
+      "factor": 4
+    },
+    {
+      "name": "Newcastle",
+      "airChanges": 50,
+      "factor": 4
+    },
+    {
+      "name": "Woolongong",
+      "airChanges": 50,
+      "factor": 4
+    },
+    {
+      "name": "Coffs Harbour",
+      "airChanges": 50,
+      "factor": 4
+    },
+    {
+      "name": "Nambour",
+      "airChanges": 50,
+      "factor": 4
+    },
+    {
+      "name": "Townsville",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Cairns",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Mackay",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Rockhampton",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Darwin",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Carnavon",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Port Hedland",
+      "airChanges": 65,
+      "factor": 5
+    },
+    {
+      "name": "Broome",
+      "airChanges": 65,
+      "factor": 5
+    }
+  ],
+  "titles": [
+    {
+      "name": "Room Identity"
+    },
+    {
+      "name": "L"
+    },
+    {
+      "name": "W"
+    },
+    {
+      "name": "H"
+    },
+    {
+      "name": "Extra Room Factor"
+    },
+    {
+      "name": "Total Room M3"
+    },
+    {
+      "name": "Suggested Dia"
+    },
+    {
+      "name": "Room Outlet Size"
+    },
+    {
+      "name": "Room Duct Diameter"
+    }
+  ]
+}
